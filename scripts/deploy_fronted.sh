@@ -17,7 +17,7 @@ chmod +x /tmp/wp-cli.phar
 
 # Lo movemos con los comandos locales /usr/local/bin y le asignamos un nombre mas corto, asi no tenemos que poner toda la ruta /tmp/wp-cli.phar
 mv /tmp/wp-cli.phar /usr/local/bin/wp
-
+#borramos lo que hay en la ruta de instalacion
 rm -rf $WORDPRESS_DIRECTORY/*
 
 # Instalamos el codigo fuente, en español , en la ruta /var/www/html , y que se pueda ejercutar como root
