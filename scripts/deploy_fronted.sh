@@ -20,7 +20,7 @@ mv /tmp/wp-cli.phar /usr/local/bin/wp
 #borramos lo que hay en la ruta de instalacion
 rm -rf $WORDPRESS_DIRECTORY/*
 
-# Instalamos el codigo fuente, en español , en la ruta /var/www/html , y que se pueda ejercutar como root
+# Instalamos el codigo fuente, en español , en la ruta /var/www/html , y que se pueda ejercutar como root,wp es una herramienta para administrar la instalación de wordpress
 wp core download --locale=es_ES --path=$WORDPRESS_DIRECTORY --allow-root
 
 # Creamos el archivo de configuracion
