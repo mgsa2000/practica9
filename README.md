@@ -1,4 +1,4 @@
-# practica9:Arquitectura de una aplicación web LAMP en dos niveles
+# practica9:Arquitectura de una aplicación web LAMP en dos nivelesss
 
 
 En esta practica vamos a realizar la instalacion de wordpress en dos niveles.
